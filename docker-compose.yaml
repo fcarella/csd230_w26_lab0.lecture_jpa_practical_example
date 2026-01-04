@@ -11,5 +11,5 @@ services:
       - 'MYSQL_USER=fcarella'
     ports:
       - '3307:3306'
-    volumes: # stores data in local folder: c:\volumes
-      - c:\volumes\mysql:/var/lib/mysql
+    volumes: # stores data in local folder:./volumes
+      - ./volumes/mysql:/var/lib/mysql

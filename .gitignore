@@ -1,4 +1,5 @@
 .files2ignore
+volumes/
 ai*
 HELP.md
 target/
